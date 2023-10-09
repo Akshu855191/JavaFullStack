@@ -25,7 +25,11 @@ Int
 Long
 
 - An integer can store 10digit values but if we want a value bigger than this range, we can use the long data type which can store upto 19 digit number.
-- 
+- Thelong value needs to incluse the letter "l" or "L" in its suffix.
+-  The long data type takes 8 byte of memory.
+-  The range lies between 9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
+-  It's default value is 0.
+-  Example:- long a = 7972684489l;
 
 
 ------------------------------------------------------------------------------------------------------
@@ -46,7 +50,12 @@ Float
  
 double
 - Double is preferred over a float in regular programing beacause it is sufficient for holding 15 decimal digit size.
-- 
+- The double data type is a default choice when it comes to decdimal, as it is double precision 64 bit.
+- It occupies 8 byte of memory.
+- Double require more space than float.
+- It is good practise to end valu with a "d".
+- Its value range is unlimited.
+- Example : double d = -4251785.9d;
 
 
 -----------------------------------------------------------------------------------------------------
