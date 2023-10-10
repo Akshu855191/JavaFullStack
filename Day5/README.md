@@ -52,7 +52,7 @@ Declaratio array :-  int[] num ={10,20,30,40,50}
 - For both row and colomn i.e. [][] the index begins from 0. 
 - Multidimentional array is also called as jagged array.
 
-* Cloning of Arrays
+** Cloning of Arrays
    
 Cloning creates copies that are clones of the original elements or reference elements.
 - Cloning arrays are of two types shallow copy and deep copy in Java.
@@ -65,24 +65,23 @@ the same type.
 - Shallow copy means both arrays are pointing to the same memory address. Whenever you modify one of 
 these arrays, you will be modifying both arrays.
 
-* Array Deep Copy
+** Array Deep Copy
   
 - Deep copy means a variable would have a copy of the original array in a different memory location.
 - Example : int array1[] = {1,2,3,4,5};
 int array2[] = array1.clone();
 
-*Array Shallow Copy
+**Array Shallow Copy
 
 - Shallow copy means both arrays are pointing to the same memory address. If any one of these array is 
 modified other array get auto reflected.
 - Example : int array1[][] = {{1,2,3},{4,5}};
 int array2[][] = array1.clone();
 
-*Array Advantages :
+**Array Advantages :
 
 - Code Optimization: It makes the code optimized.
 - Random access: Data located at the index position.
 * Disadvantages :
-  
 - Size Limit: We can store only the fixed size of elements in the array.
 
